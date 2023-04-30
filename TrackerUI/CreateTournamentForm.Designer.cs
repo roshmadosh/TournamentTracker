@@ -117,6 +117,7 @@
             // 
             // createTeamButton
             // 
+            this.createTeamButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createTeamButton.Location = new System.Drawing.Point(26, 246);
             this.createTeamButton.Name = "createTeamButton";
             this.createTeamButton.Size = new System.Drawing.Size(273, 46);
@@ -126,6 +127,7 @@
             // 
             // createPrizeButton
             // 
+            this.createPrizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createPrizeButton.Location = new System.Drawing.Point(26, 569);
             this.createPrizeButton.Name = "createPrizeButton";
             this.createPrizeButton.Size = new System.Drawing.Size(273, 46);
@@ -155,6 +157,7 @@
             // 
             // removeTeamButton
             // 
+            this.removeTeamButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.removeTeamButton.Location = new System.Drawing.Point(814, 311);
             this.removeTeamButton.Name = "removeTeamButton";
             this.removeTeamButton.Size = new System.Drawing.Size(67, 46);
@@ -164,6 +167,7 @@
             // 
             // removePrizeButton
             // 
+            this.removePrizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.removePrizeButton.Location = new System.Drawing.Point(814, 633);
             this.removePrizeButton.Name = "removePrizeButton";
             this.removePrizeButton.Size = new System.Drawing.Size(67, 46);
@@ -192,6 +196,7 @@
             // 
             // createTournamentButton
             // 
+            this.createTournamentButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createTournamentButton.Location = new System.Drawing.Point(608, 888);
             this.createTournamentButton.Name = "createTournamentButton";
             this.createTournamentButton.Size = new System.Drawing.Size(273, 46);
@@ -221,7 +226,7 @@
             this.Controls.Add(this.tournamentNameValue);
             this.Controls.Add(this.tournamentNameLabel);
             this.Controls.Add(this.headerLabel);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);

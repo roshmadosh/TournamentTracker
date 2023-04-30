@@ -138,6 +138,7 @@
             // 
             // createPrizeButton
             // 
+            this.createPrizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createPrizeButton.Location = new System.Drawing.Point(608, 403);
             this.createPrizeButton.Name = "createPrizeButton";
             this.createPrizeButton.Size = new System.Drawing.Size(273, 46);

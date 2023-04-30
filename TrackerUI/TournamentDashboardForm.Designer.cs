@@ -67,6 +67,7 @@
             // 
             // loadTournamentButton
             // 
+            this.loadTournamentButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.loadTournamentButton.Location = new System.Drawing.Point(519, 159);
             this.loadTournamentButton.Name = "loadTournamentButton";
             this.loadTournamentButton.Size = new System.Drawing.Size(141, 46);
@@ -76,6 +77,7 @@
             // 
             // createTournamentButton
             // 
+            this.createTournamentButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createTournamentButton.Location = new System.Drawing.Point(387, 258);
             this.createTournamentButton.Name = "createTournamentButton";
             this.createTournamentButton.Size = new System.Drawing.Size(273, 46);
@@ -93,10 +95,11 @@
             this.Controls.Add(this.selectTournamentValue);
             this.Controls.Add(this.selectTournamentLabel);
             this.Controls.Add(this.headerLabel);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "TournamentDashboardForm";
-            this.Text = "Tournament Dashboard";
+            this.Text = "Tournament Tracker";
             this.ResumeLayout(false);
             this.PerformLayout();
 
