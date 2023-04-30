@@ -46,8 +46,8 @@
             this.emailLabel = new System.Windows.Forms.Label();
             this.phoneValue = new System.Windows.Forms.TextBox();
             this.phoneLabel = new System.Windows.Forms.Label();
-            this.createPlayerButton = new System.Windows.Forms.Button();
             this.createTeamButton = new System.Windows.Forms.Button();
+            this.createPlayerButton = new System.Windows.Forms.Button();
             this.addPlayerGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,7 +66,7 @@
             // 
             this.teamNameLabel.AutoSize = true;
             this.teamNameLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.teamNameLabel.Location = new System.Drawing.Point(12, 99);
+            this.teamNameLabel.Location = new System.Drawing.Point(23, 86);
             this.teamNameLabel.Name = "teamNameLabel";
             this.teamNameLabel.Size = new System.Drawing.Size(88, 37);
             this.teamNameLabel.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             // teamNameValue
             // 
-            this.teamNameValue.Location = new System.Drawing.Point(106, 102);
+            this.teamNameValue.Location = new System.Drawing.Point(117, 89);
             this.teamNameValue.Name = "teamNameValue";
             this.teamNameValue.Size = new System.Drawing.Size(324, 35);
             this.teamNameValue.TabIndex = 4;
@@ -83,7 +83,7 @@
             // 
             this.playersLabel.AutoSize = true;
             this.playersLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.playersLabel.Location = new System.Drawing.Point(12, 181);
+            this.playersLabel.Location = new System.Drawing.Point(23, 168);
             this.playersLabel.Name = "playersLabel";
             this.playersLabel.Size = new System.Drawing.Size(100, 37);
             this.playersLabel.TabIndex = 13;
@@ -92,7 +92,7 @@
             // 
             // removePlayerButton
             // 
-            this.removePlayerButton.Location = new System.Drawing.Point(800, 558);
+            this.removePlayerButton.Location = new System.Drawing.Point(800, 545);
             this.removePlayerButton.Name = "removePlayerButton";
             this.removePlayerButton.Size = new System.Drawing.Size(81, 46);
             this.removePlayerButton.TabIndex = 18;
@@ -103,9 +103,9 @@
             // 
             this.playersListBox.FormattingEnabled = true;
             this.playersListBox.ItemHeight = 30;
-            this.playersListBox.Location = new System.Drawing.Point(12, 558);
+            this.playersListBox.Location = new System.Drawing.Point(23, 545);
             this.playersListBox.Name = "playersListBox";
-            this.playersListBox.Size = new System.Drawing.Size(782, 184);
+            this.playersListBox.Size = new System.Drawing.Size(766, 184);
             this.playersListBox.TabIndex = 17;
             // 
             // selectLabel
@@ -113,7 +113,7 @@
             this.selectLabel.AutoSize = true;
             this.selectLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.selectLabel.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.selectLabel.Location = new System.Drawing.Point(12, 239);
+            this.selectLabel.Location = new System.Drawing.Point(23, 226);
             this.selectLabel.Name = "selectLabel";
             this.selectLabel.Size = new System.Drawing.Size(94, 37);
             this.selectLabel.TabIndex = 15;
@@ -122,7 +122,7 @@
             // selectPlayerValue
             // 
             this.selectPlayerValue.FormattingEnabled = true;
-            this.selectPlayerValue.Location = new System.Drawing.Point(112, 242);
+            this.selectPlayerValue.Location = new System.Drawing.Point(123, 229);
             this.selectPlayerValue.Name = "selectPlayerValue";
             this.selectPlayerValue.Size = new System.Drawing.Size(344, 38);
             this.selectPlayerValue.TabIndex = 14;
@@ -132,7 +132,7 @@
             this.orLabel.AutoSize = true;
             this.orLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.orLabel.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.orLabel.Location = new System.Drawing.Point(476, 239);
+            this.orLabel.Location = new System.Drawing.Point(487, 226);
             this.orLabel.Name = "orLabel";
             this.orLabel.Size = new System.Drawing.Size(42, 37);
             this.orLabel.TabIndex = 19;
@@ -149,9 +149,9 @@
             this.addPlayerGroupBox.Controls.Add(this.lastNameLabel);
             this.addPlayerGroupBox.Controls.Add(this.firstNameValue);
             this.addPlayerGroupBox.Controls.Add(this.firstNameLabel);
-            this.addPlayerGroupBox.Location = new System.Drawing.Point(12, 309);
+            this.addPlayerGroupBox.Location = new System.Drawing.Point(23, 296);
             this.addPlayerGroupBox.Name = "addPlayerGroupBox";
-            this.addPlayerGroupBox.Size = new System.Drawing.Size(782, 221);
+            this.addPlayerGroupBox.Size = new System.Drawing.Size(766, 221);
             this.addPlayerGroupBox.TabIndex = 20;
             this.addPlayerGroupBox.TabStop = false;
             this.addPlayerGroupBox.Text = "Add New Player";
@@ -230,15 +230,6 @@
             this.phoneLabel.TabIndex = 10;
             this.phoneLabel.Text = "Phone";
             // 
-            // createPlayerButton
-            // 
-            this.createPlayerButton.Location = new System.Drawing.Point(635, 169);
-            this.createPlayerButton.Name = "createPlayerButton";
-            this.createPlayerButton.Size = new System.Drawing.Size(141, 46);
-            this.createPlayerButton.TabIndex = 21;
-            this.createPlayerButton.Text = "create";
-            this.createPlayerButton.UseVisualStyleBackColor = true;
-            // 
             // createTeamButton
             // 
             this.createTeamButton.Location = new System.Drawing.Point(608, 782);
@@ -247,6 +238,15 @@
             this.createTeamButton.TabIndex = 21;
             this.createTeamButton.Text = "Create Team";
             this.createTeamButton.UseVisualStyleBackColor = true;
+            // 
+            // createPlayerButton
+            // 
+            this.createPlayerButton.Location = new System.Drawing.Point(619, 169);
+            this.createPlayerButton.Name = "createPlayerButton";
+            this.createPlayerButton.Size = new System.Drawing.Size(141, 46);
+            this.createPlayerButton.TabIndex = 21;
+            this.createPlayerButton.Text = "create";
+            this.createPlayerButton.UseVisualStyleBackColor = true;
             // 
             // CreateTeamForm
             // 
@@ -296,7 +296,7 @@
         private Label phoneLabel;
         private TextBox emailValue;
         private Label emailLabel;
-        private Button createPlayerButton;
         private Button createTeamButton;
+        private Button createPlayerButton;
     }
 }
