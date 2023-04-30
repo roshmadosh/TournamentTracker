@@ -1,6 +1,6 @@
 ﻿namespace TrackerLibrary
 {
-    public class PersonModel
+    public class PlayerModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
