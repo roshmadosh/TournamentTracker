@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Documents;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class MatchupModel
     {
