@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Configuration;
 using TrackerLibrary.DataAccess;
 
 namespace TrackerLibrary
@@ -20,6 +21,13 @@ namespace TrackerLibrary
                 Connections.Add(sql);
             }
 
+        }
+
+        public static string ConnectionString(string databaseName)
+        {
+            string cs = ConfigurationManager.ConnectionStrings[databaseName].ConnectionString;
+            System.Console.WriteLine(cs);
+            return cs;
         }
     }
 }
